@@ -1,0 +1,9 @@
+ if(e_decode->skip_bmp_header(e_decode)==e_success)
+        {
+          cout<<"skip the bmp header successfully\n";
+        }
+        else
+        {
+            cout<<"ERROR: fail to skip bmp header"<<endl;
+            return e_failure;
+        }
